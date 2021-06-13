@@ -14,9 +14,9 @@
   <p>
     Email Sender is the RESTful service that will help user to send bulk emails.
   </p>	
-    
+    <p>
     <a href="https://github.com/pvyas033/EmailSender"><strong>Explore the docs »</strong></a>
-
+</p>
 
 
 <!-- TABLE OF CONTENTS -->
