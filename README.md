@@ -95,21 +95,41 @@ The usage may be differe with front end. Here I will explain how you can test th
    ```
 2. Once server is up and running make a POST request from Postman to send sender information like below
    
-   ![Screenshot](/screenshots/Request_To_Add_Sender.PNG)
+   ![Screenshot](/screenshot/Request_To_Add_Sender.PNG)
 
 3. Then make POST request for uploading excel file that contain email information
 
-   ![Screenshot](/screenshots/Request_To_Upload_Excel_File.PNG)
+   ![Screenshot](/screenshot/Request_To_Upload_Excel_File.PNG)
    
    
    That excel file will be like below [Test.excel](https://github.com/pvyas033/EmailSender/blob/master/test/test.xlsx)
    
-   ![Screenshot](/screenshots/Test_Excel_File.PNG)
+   ![Screenshot](/screenshot/Test_Excel_File.PNG)
    
 5. Then make GET request for send emails and you will see it will send all email that you have added in excel file with your sender information.
    
-   ![Screenshot](/screenshots/Request_To_Send_Emails.PNG)
+   ![Screenshot](/screenshot/Request_To_Send_Emails.PNG)
 
+  Note: If you receive any error like below then please follow mention steps:
+  
+  Error: 
+   ```sh
+   JavaMail Exception javax.mail.AuthenticationFailedException 534-5.7.9 Application-specific password required
+   ```
+   
+   Reason:
+   You have enabled Two phase authentication for your Google account and as a result applications will not be able to login to your Google account using the actual password. Google expects you to generate a application specific password for each application you use (and give it a name) and then use that password to login to your Google account from your application. This allows you to not give your password to third party application when you have 2-step authentication enabled.
+   
+   Solution: 
+   Just create an App Password for your account and use that password.
+
+   Steps to create password:
+
+   Go to your account settings (https://myaccount.google.com/) -->> Security -->> Under signing in to Google -->> App Password -->> Enter your credentials to login to your account -->> Select 'App' and 'Device' -->> Generate.
+
+   Copy and paste the password somewhere.
+
+   You can use this password instead of your account password.
 
 <!-- ROADMAP -->
 ## Roadmap
