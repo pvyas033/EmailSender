@@ -12,15 +12,10 @@
   </a>
 
   <p>
-  
     Email Sender is the RESTful service that will help user to send bulk emails.
-	
-    <br />
-    <a href="https://github.com/pvyas033/EmailSender"><strong>Explore the docs »</strong></a>
-    <br />
+  </p>	
     
-  </p>
-</p>
+    <a href="https://github.com/pvyas033/EmailSender"><strong>Explore the docs »</strong></a>
 
 
 
