@@ -7,7 +7,7 @@
 
 
 <p>
-  <a href="https://github.com/pvyas033/EmailSender">
+  <a href="https://github.com/pvyas033/email-sender">
     <h3="center">EmailSender</h3>
   </a>
 
@@ -15,7 +15,7 @@
     Email Sender is the RESTful service that will help user to send bulk emails.
   </p>	
     <p>
-    <a href="https://github.com/pvyas033/EmailSender"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/pvyas033/email-sender"><strong>Explore the docs »</strong></a>
 </p>
 
 
@@ -75,7 +75,7 @@ Install maven from maven site [Installing Maven](https://maven.apache.org/instal
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/pvyas033/EmailSender.git
+   git clone https://github.com/pvyas033/email-sender.git
    ```
 2. Run below command
    ```sh
@@ -102,7 +102,7 @@ The usage may be differe with front end. Here I will explain how you can test th
    ![Screenshot](/screenshot/Request_To_Upload_Excel_File.PNG)
    
    
-   That excel file will be like below [Test.excel](https://github.com/pvyas033/EmailSender/blob/master/test/test.xlsx)
+   That excel file will be like below [Test.excel](https://github.com/pvyas033/email-sender/blob/master/test/test.xlsx)
    
    ![Screenshot](/screenshot/Test_Excel_File.PNG)
    
@@ -161,7 +161,7 @@ Distributed under the Apache License 2.0.
 
 Pankaj Vyas - [@pankaj_pvt](https://twitter.com/pankaj_pvt) 
 
-Email Sender - [https://github.com/pvyas033/EmailSender](https://github.com/pvyas033/EmailSender)
+Email Sender - [https://github.com/pvyas033/email-sender](https://github.com/pvyas033/email-sender)
 
 
 
