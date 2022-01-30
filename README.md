@@ -12,7 +12,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Event-Driven-Architecture</h3>
+  <h3 align="center">Email Sender</h3>
 
   <p align="center">
     <br />
