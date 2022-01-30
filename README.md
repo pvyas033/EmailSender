@@ -5,18 +5,27 @@
 *** Thanks again! Now go create something AMAZING! :D
 -->
 
-
-<p>
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
   <a href="https://github.com/pvyas033/email-sender">
-    <h3="center">EmailSender</h3>
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <p>
-    Email Sender is the RESTful service that will help user to send bulk emails.
-  </p>	
-    <p>
+  <h3 align="center">Event-Driven-Architecture</h3>
+
+  <p align="center">
+    <br />
     <a href="https://github.com/pvyas033/email-sender"><strong>Explore the docs »</strong></a>
-</p>
+    <br />
+    <br />
+    <a href="https://github.com/pvyas033/email-sender">View Demo</a>
+    ·
+    <a href="https://github.com/pvyas033/email-sender/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/pvyas033/email-sender/issues">Request Feature</a>
+  </p>
+ </p>
 
 
 <!-- TABLE OF CONTENTS -->
@@ -39,7 +48,6 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
@@ -75,7 +83,7 @@ Install maven from maven site [Installing Maven](https://maven.apache.org/instal
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/pvyas033/email-sender.git
+   git clone https://github.com/pvyas033/EmailSender.git
    ```
 2. Run below command
    ```sh
@@ -102,7 +110,7 @@ The usage may be differe with front end. Here I will explain how you can test th
    ![Screenshot](/screenshot/Request_To_Upload_Excel_File.PNG)
    
    
-   That excel file will be like below [Test.excel](https://github.com/pvyas033/email-sender/blob/master/test/test.xlsx)
+   That excel file will be like below [Test.excel](https://github.com/pvyas033/EmailSender/blob/master/test/test.xlsx)
    
    ![Screenshot](/screenshot/Test_Excel_File.PNG)
    
@@ -148,20 +156,12 @@ Contributions are what make the open source community such an amazing place to b
 5. Open a Pull Request
 
 
-
-<!-- LICENSE -->
-## License
-
-Distributed under the Apache License 2.0.
-
-
-
 <!-- CONTACT -->
 ## Contact
 
-Pankaj Vyas - [@pankaj_pvt](https://twitter.com/pankaj_pvt) 
+Pankaj Vyas | [Website](https://pankajvyas.in/#/) | [LinkedIn](https://www.linkedin.com/in/pankaj033/) | [Twitter](https://twitter.com/pankaj_pvt) | pankajvyas033@gmail.com
 
-Email Sender - [https://github.com/pvyas033/email-sender](https://github.com/pvyas033/email-sender)
+Email Sender - [https://github.com/pvyas033/EmailSender](https://github.com/pvyas033/EmailSender)
 
 
 
